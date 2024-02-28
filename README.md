@@ -4,8 +4,9 @@ DEMO
 assuming you have docker/docker compose installed:
 
 1. build the spring boor project 
-2. run docker-compose up
-3. perform CRUD operations
+2. run docker-compose build
+3. run docker-compose up
+4. perform CRUD operations
 HTTP POST http://localhost:8080/create
    {
    "name":"John",
